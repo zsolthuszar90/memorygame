@@ -1,0 +1,15 @@
+.gameover__container {
+  text-align: center;
+}
+
+.gameover__title {
+  font-weight: bold;
+}
+
+.gameover__ranking, .gameover__ranking>p {
+  padding: 5px;
+}
+
+.gameover__scoreboard {
+  padding: 15px 5px;
+}

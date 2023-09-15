@@ -1,0 +1,24 @@
+.loading__container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #000000CC;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loading__catpaw {
+  width: 200px;
+  height: 200px;
+  animation: rotate 1.5s linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rotate {
+  0% { transform: rotate(0deg) scale(1);}
+  40% {transform: rotate(360deg) scale(1.3); }
+  100% { transform: rotate(360deg) scale(1);}
+}

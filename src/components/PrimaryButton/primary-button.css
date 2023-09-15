@@ -1,0 +1,17 @@
+.primary-button {
+  background: rgb(112, 37, 191);
+	color: inherit;
+	border: none;
+  border-radius: 10px;
+	padding: 10px 20px;
+	cursor: pointer;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  transition: all 0.2s;
+}
+
+.primary-button:hover {
+  background-color: rgb(149, 76, 226);
+  transform: scale(1.1);
+}

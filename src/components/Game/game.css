@@ -1,0 +1,8 @@
+.game__container {
+  margin-bottom: 50px;
+}
+
+.game__img-grid {
+  display: grid;
+  grid-gap: 10px;
+}

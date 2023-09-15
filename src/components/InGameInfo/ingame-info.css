@@ -1,0 +1,43 @@
+.ingame-info__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ingame-info__player {
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.ingame-info__data {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px
+}
+
+.ingame-info__subtitle {
+  font-size: 10px;
+  margin-top: 10px;
+}
+
+.ingame-info__pairs {
+  margin-bottom: 10px;
+}
+
+.ingame-info__next-player {
+  position: absolute;
+  font-size: 50px;
+  animation: popup 1s linear;
+  animation-iteration-count: 1;
+}
+
+@keyframes popup {
+  0% { transform: rotate(0deg) scale(0);}
+  20% {transform: rotate(360deg) scale(1); }
+  80% {transform: rotate(360deg) scale(1); }
+  100% { transform: rotate(360deg) scale(0);}
+}

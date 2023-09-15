@@ -1,0 +1,24 @@
+.player__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 0;
+  border-top: 1px solid rgb(207, 207, 207);
+}
+
+.player__remove {
+  margin-left: 20px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+h4 {
+  font-size: 12px;
+}
+
+input, input:focus, input:active {
+  border: none;
+  outline: none;
+  font-size: 16px;
+  padding: 0;
+}

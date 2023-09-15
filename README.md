@@ -26,6 +26,9 @@ To start:
   - no global state management was used
   - can be improved (Redux, Context API)
 
+# Structure
+- Individual components have their own folder with the .tsx, .test.tsx, .css files
+
 # Design
 - no css pre/postprocessor was used
 - responsive design (flexbox)
@@ -48,3 +51,18 @@ To start:
 # Tests
 - a few unit & component tests were written
 - test coverage can be improved
+
+# Limitations
+- Scoreboard is only available for single-player, and only stored in localhost
+- There is no global statemanagement, therefore game status and other infos are not distributed across the app
+- The design is responsive, however the layout may not be perfect on some mobile devices
+
+# Next steps, improvements
+- Add API key to CAT API (store as env var) for more features
+- Add global state management --> Context API is sufficient for this project
+- Add Multiplayer feature with other browsers (Websocket)
+- Refactor plain CSS by using SCSS
+- Add media queries for proper mobile design
+- Add authentication, so the user can track the progress
+- Store user and scores data in a dedicated DB
+- Increase test coverage
